@@ -7,7 +7,7 @@ SDK_ROOT := ../../kernel
 PROJ_DIR := .
 
 $(OUTPUT_DIRECTORY)/nrf52840_xxaa.out: \
-  LINKER_SCRIPT  := uart_gcc_nrf52.ld
+  LINKER_SCRIPT  := nrf52840_flash.ld
 
 # Source files common to all targets
 SRC_FILES += \
