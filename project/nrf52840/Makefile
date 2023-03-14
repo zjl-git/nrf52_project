@@ -1,6 +1,6 @@
 PROJECT_NAME     := uart_pca10056
 TARGETS          := nrf52840_xxaa
-OUTPUT_DIRECTORY := build
+OUTPUT_DIRECTORY := ../../build
 
 #SDK_ROOT := ../../../../../..
 SDK_ROOT := ../../kernel
